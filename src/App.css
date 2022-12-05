@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+body{
+  background-color: #dc392d;
+font-family: roboto, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-body{
+  background-color:#fff ;
+ text-align: center;
+ margin-top: 40px;
+ margin-left: 160px;
+ margin-right: 160px;
+ height: 800px;
+ margin-bottom: 60px;
+ border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-header{
+  width: 112px;
+  margin-left: 545px;
+ padding-top: 40px;
+ cursor: pointer;
+margin-bottom: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.first-text{
+  font-size: 24px;
+  color: #363d47;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.content{
+  color: #69707a;
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 14px;
+}
+.content-two{
+  color: #69707a;
+  font-size: 17px;
+  margin-top: 0.5%;
+}
+.socialmedia-buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+  margin-left: 260px;
+  margin-right: 260px;
+  margin-top: 30px;
+  height: 45px;
+  margin-bottom: 30px;
+}
+.twitter{
+background-color: #0061f2;
+border-radius: 5px;
+border: none;
+}
+.twitter-a{
   color: white;
+  text-decoration: none;
 }
-
-.App-link {
-  color: #61dafb;
+.facebook{
+  background-color: #5800e8;
+  border-radius: 5px;
+  border: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.facebook-a{
+  color: white;
+  text-decoration: none;
+}
+.google{
+  background-color: #f76400;
+  border-radius: 5px;
+  border: none;
+}
+.google-a{
+  color: white;
+  text-decoration: none;
+}
+.github{
+  background-color: #212832;
+  border-radius: 5px;
+  border: none;
+}
+.github-a{
+  color: white;
+  text-decoration: none;
+}
+.middle{
+  border-bottom: 2px solid #8c8e91;
+  margin-top: 0;
+ margin-bottom: 10px;
 }
