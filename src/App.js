@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
       <PageCenter/>
+    
     </div>
   );
 }
-
 
 function PageCenter(){
 
@@ -25,8 +25,9 @@ function PageCenter(){
         <p className='content-two'>and snippets, comments, and more!</p>
         
           <SocialMedia/>
-
+          <LoginDetails/>
       </div>
+      <p className='copy'>Copyright © Start Bootstrap LLC 2021</p>
     </div>
   );
 }
@@ -53,8 +54,39 @@ function SocialMedia(){
       </button>
     </div>
     </div>
+    
   );
 }
 
+function LoginDetails(){
+  return(
+    <div>
+      <div className='form'>
+        <div className='form-details'>
+          <label className="label" for="email">Email address</label><br></br>
+          <input className="input" id="email" name=""/>
+        </div>
+        <div className='form-details1'>
+          <label className="label1" for="email">Password</label><br></br>
+          <input className="input1" id="email" />
+        </div>
+      
+         <a className="forgot-password" href="https://startbootstrap.com/auth/password-reset-request" target="_blank">Forgot your password?</a>
+        <div className='last-step'>
+          <div className='remember'>
+          <input type="checkbox" id="Remember" name=""/>
+          <label for="Remember">Remember password</label>
+          </div>
+          <div>
+          <p className='login-button'>Login</p>
+          </div>
+        </div>
+        <p className='privacy-policy'>This site is protected by reCAPTCHA and the Google <a className="privacy" href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a className='terms' href="https://policies.google.com/terms" terget="_blank">Terms of Service</a> apply.</p>
+      </div>
+      <p className='create-account'>New user? <a className='create' href="https://startbootstrap.com/auth/register">Create an account!</a></p>
+    </div>
+   
+  );
+}
 
 export default App;

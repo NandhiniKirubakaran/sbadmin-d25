@@ -8,7 +8,7 @@ font-family: roboto, sans-serif;
  margin-top: 40px;
  margin-left: 160px;
  margin-right: 160px;
- height: 800px;
+ height: 830px;
  margin-bottom: 60px;
  border-radius: 5px;
 }
@@ -44,12 +44,13 @@ margin-bottom: 0;
   margin-right: 260px;
   margin-top: 30px;
   height: 45px;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .twitter{
 background-color: #0061f2;
 border-radius: 5px;
 border: none;
+cursor: pointer;
 }
 .twitter-a{
   color: white;
@@ -59,6 +60,7 @@ border: none;
   background-color: #5800e8;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 .facebook-a{
   color: white;
@@ -68,6 +70,7 @@ border: none;
   background-color: #f76400;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 .google-a{
   color: white;
@@ -77,13 +80,80 @@ border: none;
   background-color: #212832;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 .github-a{
   color: white;
   text-decoration: none;
 }
 .middle{
-  border-bottom: 2px solid #8c8e91;
+  border-bottom: 2px solid #cad0d8;
   margin-top: 0;
- margin-bottom: 50px;
+}
+.form{
+  height: 300px;
+  width: 700px;
+  margin: 30px 0;
+  margin-left: 240px;
+  margin-right: 250px;
+ border-bottom: 1px solid #cad0d8;
+padding-bottom: 30px;
+}
+.form-details, .form-details1{
+  text-align: left;
+  margin-bottom: 20px;
+  color: #69707a;
+  font-size: 15px;
+}
+.input, .input1{
+  height: 40px;
+ width: 100%;
+ border-radius: 5px;
+ background-color: #ebecee;
+ border: 1px solid #ebecee;
+}
+.forgot-password{
+  text-decoration: none;
+  color: red;
+  margin-left: -520px;
+  font-size: 17px;
+}
+.last-step{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  align-items: center;
+}
+.remember{
+  color: rgb(140, 135, 135);
+}
+.login-button{
+  color: rgb(224, 214, 214);
+  height: 30px;
+  width: 80px;
+  background-color: #dc392d;
+  border-radius: 5px;
+ padding-top: 9px;
+ font-size: 14px;
+}
+.privacy-policy{
+  color:rgb(140, 135, 135) ;
+  font-size: 15px;
+}
+.privacy, .terms{
+color: #dc392d;
+text-decoration: none;
+}
+.create-account{
+  font-size: 15px;
+  color:rgb(140, 135, 135) ;
+}
+.create{
+  text-decoration: none;
+  color: #dc392d;
+}
+.copy{
+  color:rgb(190, 183, 183) ;
+  font-size: 13px;
+ padding-left: 5px;
 }
